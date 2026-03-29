@@ -193,6 +193,10 @@ padding: 16px 32px;
   padding:120px 0;
 }
 
+.features-list li{
+  flex:1;
+}
+
 
 .features-item-text {
   font-size: 16px;
@@ -289,7 +293,7 @@ address{font-style: normal;}
 }
 
 
-.portfolio-card-wrapper{border-style: solid; border-width: 0 1px 1px 1px;border-color: #E7E9FC; padding:16px 32px}
+.portfolio-card-wrapper{border-style: solid; border-width: 0 1px 1px 1px;border-color: #E7E9FC; padding: 32px 16px}
 
 .portfolio-list {
   display: flex;
