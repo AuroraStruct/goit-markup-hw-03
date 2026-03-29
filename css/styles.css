@@ -187,6 +187,11 @@ padding: 16px 32px;
    margin-bottom: 8px;
 }
 
+.features-list{
+  display: flex;
+  gap:24px;
+  padding:120px 0;
+}
 
 
 .features-item-text {
@@ -198,6 +203,7 @@ padding: 16px 32px;
 /* TEAM ROLES */
 .team {
   background: #f4f4fd;
+   padding:120px 0;
 }
 
 .team-title {
@@ -245,6 +251,7 @@ padding: 16px 32px;
 .team-list {
 display: flex;
   gap: 24px;
+ 
 }
 .contacts-item-link{
     text-decoration: none;
@@ -264,11 +271,14 @@ address{font-style: normal;}
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 
 /* PORTFOLIO */
-
+.section-portfolio{
+   padding:120px 0;
+}
 .portfolio-name {
   margin-bottom: 8px;
   font-weight: 500;
